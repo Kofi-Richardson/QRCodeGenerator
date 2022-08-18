@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>QR Code Generator</h2>
+    </header>
+
+    <div class="container">
+        <div class="container-left">
+            <h1 class="spacing">QR Code Generator</h1>
+            <p class="spacing">QR Codes allow smartphone users to acesss your website simply and Quickly.</p>
+            <p class="spacing">
+                Enter your URL below to generate a QR Code and Download the image.
+            </p>
+
+            <div class="spacing input-section" >
+                <input type="url" placeholder="Enter a URL" class="spacing">
+                <select name="size" id="size" class="spacing">
+                    <option value="200">200x200</option>
+                    <option value="300" selected>300x300</option>
+                    <option value="400">400x400</option>
+                    <option value="500">500x500</option>
+                </select>
+
+                <button class="spacing generate-button">Generate QR Code</button>
+            </div>
+        </div>
+        <div class="container-right">
+            <img src"" alt="QR Code">
+        </div>
+    </div>
+</body>
+</html>
